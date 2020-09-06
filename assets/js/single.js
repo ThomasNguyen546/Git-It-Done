@@ -51,7 +51,6 @@ var displayIssues = function(issues) {
         // create a link element to take users to the issue on github
         var issueEl = document.createElement("a");
         issueEl.classList = "list-item flex-row justify-space-between align-center";
-        //repoEl.setAttribute("href", "./single-repo.html?repo=" + repoName);
         issueEl.setAttribute("href", issues[i].html_url);
         issueEl.setAttribute("target", "_blank");
 
